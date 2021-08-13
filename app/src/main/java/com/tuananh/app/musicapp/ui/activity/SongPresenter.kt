@@ -7,7 +7,6 @@ class SongPresenter(
     private val view: SongContract.View,
     private val songRepository: SongRepository
 ): SongContract.Presenter {
-
     override fun getAllSong() {
         view.setSongs(songRepository.getAllSongs())
     }
@@ -19,5 +18,4 @@ class SongPresenter(
     override fun start() {
         getAllSong()
     }
-
 }

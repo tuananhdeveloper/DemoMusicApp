@@ -13,9 +13,9 @@ class SongAdapter(private val onItemClickListener: (View?, Int) -> Unit):
     private lateinit var songList: MutableList<Song>
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val rowItemBinding = ItemSongBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        val myHolder = MyViewHolder(rowItemBinding, onItemClickListener)
-        return myHolder
+        val rowItemBinding =
+            ItemSongBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return MyViewHolder(rowItemBinding, onItemClickListener)
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
