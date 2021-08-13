@@ -5,6 +5,10 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="rum_swizzle">#EDF8E0</color>
+    <color name="orinoco">#E5F8CF</color>
+    <color name="caper">#CEEDAA</color>
+    <color name="conifer">#93DD3D</color>
+    <color name="sushi">#8BC34A</color>
+    <color name="alpha_black">#23000000</color>
 </resources>
