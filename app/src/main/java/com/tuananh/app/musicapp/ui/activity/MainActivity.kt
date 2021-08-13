@@ -122,7 +122,6 @@ MusicNotification.OnItemClickListener {
             setSongList(songs)
             notifyDataSetChanged()
         }
-
     }
 
     override fun onRequestPermissionsResult(
@@ -361,5 +360,4 @@ MusicNotification.OnItemClickListener {
         private const val REQUEST_CODE = 333
         private const val DELAY = 400
     }
-
 }

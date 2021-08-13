@@ -80,7 +80,6 @@ class MediaPlayerService: Service(), MediaPlayer.OnCompletionListener, MediaPlay
             setDataSource(baseContext, song.uri)
             prepareAsync();
         }
-
     }
 
     fun pauseMedia() {
