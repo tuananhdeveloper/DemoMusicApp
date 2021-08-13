@@ -96,5 +96,4 @@ class MediaPlayerService: Service(), MediaPlayer.OnCompletionListener, MediaPlay
     inner class LocalBinder: Binder() {
         fun getService(): MediaPlayerService = this@MediaPlayerService
     }
-
 }
