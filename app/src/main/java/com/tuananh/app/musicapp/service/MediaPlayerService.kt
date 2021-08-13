@@ -1,24 +1,13 @@
 package com.tuananh.app.musicapp.service
 
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.app.PendingIntent
 import android.app.Service
-import android.content.BroadcastReceiver
-import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
 import android.media.AudioAttributes
 import android.media.AudioManager
 import android.media.MediaPlayer
 import android.os.Binder
-import android.os.Build
 import android.os.IBinder
-import android.widget.RemoteViews
-import androidx.core.app.NotificationCompat
-import com.tuananh.app.musicapp.R
 import com.tuananh.app.musicapp.data.model.Song
-import com.tuananh.app.musicapp.ui.activity.MainActivity
 import com.tuananh.app.musicapp.ui.activity.MusicNotification
 
 

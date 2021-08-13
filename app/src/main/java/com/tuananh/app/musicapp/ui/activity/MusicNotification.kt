@@ -5,20 +5,15 @@ import android.app.NotificationManager
 import android.app.PendingIntent
 import android.app.Service
 import android.content.Intent
-import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.os.Build
-import android.renderscript.RenderScript
 import android.support.v4.media.session.MediaSessionCompat
 import android.support.v4.media.session.PlaybackStateCompat
-import android.widget.RemoteViews
-import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.media.session.MediaButtonReceiver
 import com.tuananh.app.musicapp.R
 import com.tuananh.app.musicapp.data.model.Song
-import com.tuananh.app.musicapp.service.MediaPlayerService
 
 class MusicNotification(private val service: Service) {
 
